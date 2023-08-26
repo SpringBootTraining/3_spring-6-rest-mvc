@@ -1,0 +1,24 @@
+enum BeerStyle {
+    PALE_ALE
+    IPA
+}
+
+
+type Query {
+    getBeerById(id: String): Beer
+    getBeers: [Beer]
+}
+
+type Beer {
+    id: String
+    version: Int
+    beerName: String
+    beerStyle: String
+    upc: String
+    quantityOnHand: Int
+    price: Float
+    createdDate: String
+    updateDate: String
+}
+
+
