@@ -1,5 +1,6 @@
-package guru.springframework.spring6restmvc.model;
+package guru.springframework.spring6restmvc.dto;
 
+import guru.springframework.spring6restmvc.entities.enums.BeerStyle;
 import lombok.Builder;
 import lombok.Data;
 
@@ -7,10 +8,10 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+
 @Data
 @Builder
-public class Beer {
-
+public class BeerDTO {
     private UUID id;
     private Integer version;
     private String beerName;

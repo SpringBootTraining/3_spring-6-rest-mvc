@@ -1,4 +1,4 @@
-package guru.springframework.spring6restmvc.Controller;
+package guru.springframework.spring6restmvc.exceptions;
 
 
 import org.springframework.http.HttpStatus;

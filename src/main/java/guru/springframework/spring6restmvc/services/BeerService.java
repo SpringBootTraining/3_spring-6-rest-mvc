@@ -1,6 +1,6 @@
 package guru.springframework.spring6restmvc.services;
 
-import guru.springframework.spring6restmvc.model.Beer;
+import guru.springframework.spring6restmvc.entities.Beer;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

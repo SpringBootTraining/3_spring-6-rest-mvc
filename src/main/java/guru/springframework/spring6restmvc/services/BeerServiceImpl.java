@@ -1,19 +1,19 @@
 package guru.springframework.spring6restmvc.services;
 
-import guru.springframework.spring6restmvc.model.Beer;
+import guru.springframework.spring6restmvc.entities.Beer;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.*;
 
-import static guru.springframework.spring6restmvc.model.BeerStyle.IPA;
-import static guru.springframework.spring6restmvc.model.BeerStyle.PALE_ALE;
+import static guru.springframework.spring6restmvc.entities.enums.BeerStyle.IPA;
+import static guru.springframework.spring6restmvc.entities.enums.BeerStyle.PALE_ALE;
 
 @Slf4j
-@Component
+@Service
 public class BeerServiceImpl implements BeerService {
     private Map<UUID, Beer> beerMap;
 

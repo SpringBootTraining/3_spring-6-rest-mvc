@@ -1,6 +1,7 @@
-package guru.springframework.spring6restmvc.Controller;
+package guru.springframework.spring6restmvc.controllers;
 
-import guru.springframework.spring6restmvc.model.Beer;
+import guru.springframework.spring6restmvc.exceptions.NotFoundException;
+import guru.springframework.spring6restmvc.entities.Beer;
 import guru.springframework.spring6restmvc.services.BeerService;
 import guru.springframework.spring6restmvc.services.ResponseModel;
 import lombok.RequiredArgsConstructor;

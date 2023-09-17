@@ -1,7 +1,7 @@
-package guru.springframework.spring6restmvc.Controller;
+package guru.springframework.spring6restmvc.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import guru.springframework.spring6restmvc.model.Beer;
+import guru.springframework.spring6restmvc.entities.Beer;
 import guru.springframework.spring6restmvc.services.BeerService;
 import guru.springframework.spring6restmvc.services.BeerServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
@@ -54,7 +54,7 @@ class BeerControllerTest {
 
 
     /**
-     * This brings in that mock MVC component that is going to get auto wired by the spring framework,
+     * This brings in that MockMVC component that is going to get autowired by the spring framework,
      * and this is going to require a beer service in the context.
      */
     @Autowired
